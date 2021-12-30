@@ -6,7 +6,7 @@ from google.cloud import speech_v1p1beta1 as speech
 
 def get_transcript(speech_file,content_type):
     #google authenication
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/sang3/OneDrive/Desktop/Transcriber/dotted-guru-207323-ed21e93eff96.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './Transcriber/credentials.json'
 
     # wget -nc https://realenglishconversations.com/wp-content/uploads/2018/11/Driving-English-Conversation-Sample.mp3
 
